@@ -1,0 +1,41 @@
+
+.CreateTweetArea {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 20%;
+}
+
+.CreateTweetArea textarea {
+    height: 100px;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+.CreateTweetArea button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.CreateTweetArea button.disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+.CreateTweetArea button:hover {
+    background-color: #0c87c1;
+}
+
+.TweetForm {
+    display: flex;
+    flex-direction: column;
+}
+

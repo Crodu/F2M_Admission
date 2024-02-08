@@ -1,0 +1,20 @@
+/* FILEPATH: /C:/Users/soratto/Desktop/fast2mine/twitter/F2M_Admission/frontend_react/src/components/sidebar/sidebar.css */
+
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 120px);
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.user-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newuser {
+    font-size: 12px;
+}
