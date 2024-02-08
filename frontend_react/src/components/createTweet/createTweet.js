@@ -27,7 +27,7 @@ const CreateTweet = ({user}) => {
                     onChange={handleInputChange}
                     placeholder="What's on your mind?"
                 ></textarea>
-                <button type="submit" className={!user.id && 'disabled'} disabled={!user.id}>Post Tweet</button>
+                <button type="submit" className={!user.id ? 'disabled' : undefined} disabled={!user.id}>Post Tweet</button>
             </form>
         </div>
     );

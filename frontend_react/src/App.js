@@ -7,7 +7,6 @@ import api from './utils/api.js';
 
 function App() {
   const [selectedUser, setSelectedUser] = useState({});
-  const [email, setEmail] = useState("");
 
   const login = (e, email) => {
     e.preventDefault();
